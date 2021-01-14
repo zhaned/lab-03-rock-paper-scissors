@@ -10,9 +10,8 @@ let lose = 0;
 let draw = 0;
 
 playButton.addEventListener('click', () =>{
-    
 
-
-
+    const cpuThrow = getRandomThrow();
+    console.log(cpuThrow);
 
 });
