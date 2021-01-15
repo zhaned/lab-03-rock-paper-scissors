@@ -1,5 +1,6 @@
 export function getRandomThrow(){
     let cpuChoice;
+   
     const input = Math.round(Math.random() * 2);
     switch (input){
         case 0:
@@ -36,4 +37,7 @@ export function didUserWin(player, computer){
         userResult = 'lose';
         return userResult ;
     }
+ 
 }
+
+// console.log(didUserWin('rock','paper'), "HELLO");

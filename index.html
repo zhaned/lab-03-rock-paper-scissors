@@ -27,15 +27,34 @@
                 <li>Scissor beats Paper</li>
                 <li>Paper beats rock</li>
             </ul>
-            The computer is going to pick one at random and your goal is to win! Good luck!
-            <input type='radio' name='rps' value='rock'>
-            <input type='radio' name='rps' value='paper'>
-            <input type='radio' name='rps' value='scissor'>
+
+
+            <div>
+                The computer is going to pick one at random and your goal is to win! Good luck!
+            </div>
+
+
+            <label>
+            <input type='radio' name='rps' value='rock'> ROCK
+            </label>
+            <label><input type='radio' name='rps' value='paper'>PAPER</label>
+            <label><input type='radio' name='rps' value='scissor'> SCISSORS</label>
+
+
             <button id='play-button'>Play!</button>
             <div id='display-results'></div>
             <div>Wins: <span id='win-counter'>0</span></div>
             <div>lose: <span id='lose-counter'>0</span></div>
             <div>Draw: <span id='draw-counter'>0</span></div>
+            <br>
+            
+            <div class="images">
+                <img src="" id="players-choice" width="100" height="100">
+                <img src="" id="cpu-choice" width="100" height="100">
+            </div>
+
+            <button id="reset-button">Reset</button>
+            <div id="reset-counter-display"> Reset: </div>
         </section>
     </main>
     <footer>
